@@ -64,7 +64,7 @@ body:after {
     flex-direction: column;
     align-items: center;
 }
-#ctn-drawn {
+#ctn-coins0 {
     position: absolute;
     top: 100px;
     left: 200px;
@@ -72,6 +72,22 @@ body:after {
     height: 602px;
     border: 1px solid #ffa500;
     background-color: #ffffff70;
+}
+.ctn-coins {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 602px;
+    height: 602px;
+    border: 1px solid #ffa500;
+}
+#ctn-drawn {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 602px;
+    height: 602px;
+    border: 1px solid #ffa500;
 }
 #ctn-avatar {
     position: relative;
@@ -81,4 +97,12 @@ body:after {
     background-color: #ff000080;
     left: 300px;
     top: 300px;
+}
+.coins {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #ff000080;  
+    background-color: #ffff00;
+    display: none;
 }
